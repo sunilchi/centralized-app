@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="LAPTOP-DUFCVFLP.sunilc"
+  DTS:DTSID="{9C43377F-3916-46B0-A795-95C105392140}"
+  DTS:CreationName="OLEDB">
+  <DTS:PropertyExpression
+    DTS:Name="ConnectByProxy">@[$Project::DBconnetion]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=LAPTOP-DUFCVFLP;Initial Catalog=sunilc;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{9C43377F-3916-46B0-A795-95C105392140}LAPTOP-DUFCVFLP.sunilc;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
