@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 Sameer chindarkar
+=======
+s
+Sameer
+chindarkar
+>>>>>>> devbranch
